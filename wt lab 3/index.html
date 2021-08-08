@@ -1,0 +1,356 @@
+<html>
+    <head>
+        <title>wt lab_3-event registeration form</title>
+        <style>
+            body{
+                margin: 0;
+              
+               background-image: linear-gradient(rgb(247, 211, 114),rgb(112, 110, 110));
+               background-repeat: no-repeat;
+               background-size: cover;
+            }
+           
+            h1{
+               font-family:cursive;
+               font-size: 60px;
+               
+               text-align: center;
+               color: rgb(243, 175, 28);
+               text-shadow: -5px 5px 0 #000, 2px 2px 0 #000,2px -2px 0 #000,-2px -2px 0 #000;
+               margin-top: 300px;
+               padding: 40px;
+           }
+           
+          .head{
+           background-image: url("image/main.jpg");
+          
+           background-size:cover;
+           height: 100%;
+          
+           padding: 1px;
+          
+            
+          }
+          h4{
+            font-family:cursive;
+               font-size: 30px;
+               color: rgb(250, 182, 35);
+               text-shadow: -2px 2px 0 #000, 2px 2px 0 #000,2px -2px 0 #000,-2px -2px 0 #000;
+               text-align: center;
+               
+
+          }
+          .about h3{
+              text-align: center;
+              color: #070707;
+          }
+          li{
+              font-size: 20px;
+              padding: 5px;
+          }
+          .card{
+              display: flex;
+              padding: 20px;
+              
+          }
+          .event {
+              width: 100%;
+              padding: 20px;
+              border: 1px solid black;
+              border-radius: 80px;
+              margin: 20px;
+              background-color: rgb(250, 184, 43);
+              box-shadow:3px 3px 5px 0px rgba(2, 2, 2, 0.568);
+              cursor: pointer;
+          }
+          .event:hover{
+              transform: translateY(-10px);
+
+
+          }
+          .event h2{
+              text-align: center;
+              border-left: 3px solid black;
+              border-radius: 10px;
+              
+              padding: 10px;
+          }
+        
+         .info{
+             
+            background-image: url("image/note.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+             margin-left: 450px;
+             padding: 60px;
+            width: 35%;
+            
+             border-radius: 40px;
+             
+             
+             
+         }
+         .info ol{
+            font-family:cursive;
+               font-size: 20px;
+              
+         }
+         #note{
+           
+             padding: 30px;
+             margin-top: 20px;
+         }
+
+         .nav{
+  
+    
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.678);
+    display: flex;
+    
+}
+.nav_top{
+    position: fixed;
+    top:0;
+    right: 0;
+    left:0;
+}
+
+.nav_side{
+    
+    float:right;
+    
+    margin-left: 1050px;
+    padding-top:10px;
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 35px;
+    text-align: center;
+    color: rgb(245, 190, 72);
+               text-shadow: -2px 2px 0 #000, 2px 2px 0 #000,2px -2px 0 #000,-2px -2px 0 #000;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: cosmic,sans-serif;
+    margin-left: 20px;
+    
+}
+.nav_side a:hover{
+    color:white;
+    font-weight:bold;
+    transition: all 1s ease;
+}
+
+.event a{
+ 
+    padding: 12px;
+    border-radius: 30px;
+    border:1px solid black;
+    text-decoration: none;
+    background-color: #858178;
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+.e1 a{
+    margin-left:100px ;
+}
+.e a{
+    margin-left: 170px;
+  
+}
+.contact{
+    background-color: black;
+    padding: 40px;
+    color: rgb(248, 204, 60);
+}
+.contact p{
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+}
+#maincls hr{
+    background-image: linear-gradient(to right,#3f3014,#e2d5de,#c9a325);
+                border: 0;
+                height: 4px;
+}
+#events hr{
+    background-image: linear-gradient(to right,#3f3014,#6b6b5d,#4e4c46);
+                border: 0;
+                height: 4px;
+                width: 20%;
+               
+    
+}
+        </style>
+    </head>
+    <body>
+        <nav class='nav nav_top'>
+            
+                
+            <div class='nav_side'>
+                <a href="#maincls">Home</a>
+                <a href="#note">information</a>
+                <a href="#events">events</a>
+            </div>
+    
+        </nav>
+       
+      <div id="maincls">
+            
+                <div class="head">
+                    <h1>CONNAISSANCE 2021 </h1>
+                </div>
+                
+            <div class="about">
+                <h3>
+                    AN INTER DEPARTMENT TECHNICAL SYMPOSIUM
+                </h3>
+                <h3>
+                    CONNAISSANCE 2021
+                </h3>
+            </div>
+           
+            
+            
+   <div id="events">
+    <div><h4>
+        TECHNICAL EVENTS
+        <hr>
+    </h4></div>
+           <div class="card">
+               <div class="event e1">
+                   <h2>paper presentation</h2>
+                   <ul type="square">
+                       <li>paper presentation competition</li>
+                       <li><b>Max Member:</b>two members</li>
+                       <li><b>Event date:</b>23 August 2021</li>
+                       <li><i>First prize:RS.500 </i><br><i>Second prize:RS.400 </i><br><i>Third prize:RS.200</i></li>
+
+
+                   </ul>
+                   <a href="paper_presentation.html">register</a>
+
+               </div>
+               <div class="event e1">
+                <h2>idea presentation</h2>
+                   <ul type="square">
+                       <li>idea presentation competition</li>
+                       <li><b>Max Member:</b>three members</li>
+                       <li><b>Event date:</b>25 August 2021</li>
+                       <li><i>First prize:RS.800 </i><br><i>Second prize:RS.400 </i><br><i>Third prize:RS.200</i></li>
+
+
+                   </ul>
+                   <a href="idea_presentation.html">register</a>
+
+            </div>
+            <div class="event e1">
+                <h2>Coding Contest</h2>
+                <ul type="square">
+                    <li>coding competition</li>
+                    <li><b>Max Member:</b>individual</li>
+                    <li><b>Event date:</b>26 August 2021</li>
+                   
+                    <li><i>First prize:RS.500 </i><br><i>Second prize:RS.400 </i><br><i>Third prize:RS.200</i></li>
+
+
+                </ul>
+                <a href="code_contest.html">register</a>
+
+            </div>
+            <div class="event e1">
+                <h2>Application development</h2>
+                <ul type="square">
+                    <li>develope a application</li>
+                    <li><b>Max Member:</b>four members</li>
+                    <li><b>Event date:</b>27 August 2021-30 August 2021</li>
+                    <li><i>First prize:RS.2000 </i><br><i>Second prize:RS.1500 </i><br><i>Third prize:RS.1000</i></li>
+
+
+                </ul>
+                <a href="application_develop.html">register</a>
+
+            </div>
+
+           </div>
+
+           <div><h4>
+            NON TECHNICAL EVENTS
+            <hr>
+        </h4></div>
+        
+
+       <div class="card">
+           <div class="event e">
+            <h2>Photography</h2>
+            <ul type="square">
+                <li>Photography competition</li>
+                <li><b>Max Member:</b>individual</li>
+                <li><b>Event date:</b>21 Aug 2021</li>
+                <li><i>First prize:RS.500 </i><br><i>Second prize:RS.400 </i><br><i>Third prize:RS.300</i></li>
+
+
+            </ul>
+            <a href="photograph.html">register</a>
+
+           </div>
+           <div class="event e">
+            <h2>Poster Designing</h2>
+                   <ul type="square">
+                       <li>Poster Designing competition</li>
+                       <li><b>Max Member:</b>individual</li>
+                       <li><b>Event date:</b>22 August 2021</li>
+                       <li><i>First prize:RS.500 </i><br><i>Second prize:RS.400 </i><br><i>Third prize:RS.300</i></li>
+
+
+                   </ul>
+                   <a href="poster_design.html">register</a>
+
+        </div>
+        <div class="event e">
+            <h2>multi media</h2>
+            <ul type="square">
+                <li>video editing competition</li>
+                <li><b>Max Member:</b>two members</li>
+                <li><b>Event date:</b>23 August 2021</li>
+                <li><i>First prize:RS.700 </i><br><i>Second prize:RS.500 </i><br><i>Third prize:RS.400</i></li>
+
+
+            </ul>
+            <a href="multi_media.html">register</a>
+
+        </div>
+     
+
+       </div>
+
+</div>
+         
+
+            
+
+            <div id="note">
+            <div class="info">
+            <h4>NOTE</h4>
+            <ol type="i">
+                <li>certificate is provided for all event participants</li>
+                <li>cash prize for all events</li>
+                <li>20 Aug 2021 event starts</li>
+                <li>guideness meet for paper presentation and idea presentation is scheduled on 21 Aug 2021 3:30pm</li>
+            </ol>
+            </div>
+            </div>
+            <hr>
+            
+            <div class="contact">
+               
+                <p><em>KONGU ENGINEERING COLLEGE<br>ERODE, PERUNDURAI</em></p>
+            </div>
+
+        </div>
+
+        
+    </body>
+</html>
