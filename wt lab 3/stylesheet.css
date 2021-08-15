@@ -1,0 +1,248 @@
+label{
+    font-weight: bold;
+    font-size: large;
+}
+
+.nav{
+    
+    
+    padding: 10px;
+background-color: rgba(0, 0, 0, 0.678);
+display: flex;
+}
+.nav_top{
+position: fixed;
+top:0;
+right: 0;
+left:0;
+}
+
+.nav_side{
+
+float:right;
+
+margin-left: 1150px;
+padding-top:10px;
+}
+.nav_side a{
+text-decoration: none;
+margin-right: 35px;
+text-align: center;
+color: rgb(253, 144, 34); 
+     
+font-size: 20px;
+font-weight: bolder;
+font-family: cosmic,sans-serif;
+margin-left: 100px;
+
+}
+.nav_side a:hover{
+
+    color: rgb(248, 242, 242);
+font-weight:bold;
+transition: all 1s ease;
+}
+
+.container{
+    margin-top: 50px;
+    padding: 40px;
+}
+
+h1{
+    font-family:cursive;
+       font-size: 45px;
+      color: rgb(245, 244, 240);
+       text-shadow: -5px 5px 0 #000, 5px 5px 0 #000,2px -2px 0 #000,-2px -2px 0 #000;
+       text-align: center;
+     
+      
+
+  }
+legend{
+font-size: 20px;
+font-family: cursive;
+font-weight: bolder;
+
+
+}
+fieldset{
+padding: 30px;
+margin: 40px;
+border-color: black;
+
+}
+form{
+padding: 10px;
+font-size: 14px;
+font-family: cursive;
+}
+.formreg{
+    padding: 20px;
+    border: 1px solid black;
+   border-radius: 20px;
+   width: 60%;
+   margin-left: 270px;
+}
+
+input{
+margin: 20px;    border-radius: 5px;
+border:none;
+border-bottom:2px solid  black;
+height:30px;
+margin:20px;
+padding:20px;
+outline:none;
+
+font-family: cursive;
+font-size: medium;
+width: 50%;
+background-color: transparent;
+
+}
+input:focus{
+background-color: transparent;
+color: rgb(17, 17, 17);
+
+padding: 10px;
+
+border-radius: 10px;
+cursor: pointer;
+border: none;
+outline: none;
+border-left: 2px solid black;
+}
+select{
+margin: 10px;
+padding: 5px;
+border:2px solid  black;
+
+font-family: cursive;
+
+font-size: 15px;
+border-radius: 10px;
+background-color: transparent;
+}
+ .year span {
+color: black;
+}
+.yr{
+width:10px;
+background-color: #000;
+}
+input:focus{
+    background-color: transparent;
+    color: rgb(17, 17, 17);
+   
+    padding: 10px;
+   
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-left: 2px solid black;
+}
+.formreg{
+    background-color: rgb(247, 245, 93);
+   
+}
+select{
+    margin: 10px;
+    padding: 5px;
+    border:2px solid  black;
+    
+    font-family: cursive;
+    
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.reset:focus{
+    border:2px solid  black;
+    border-radius: 20px;
+
+}
+.submit:focus{
+    border:2px solid  black;
+    border-radius: 20px;
+
+}
+option{
+    font-family: cursive;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+   
+}
+
+.member{
+    margin: 50px;
+   font-family: cursive;
+   font-size: 17px;
+  
+}
+.button{
+    display: flex;
+    margin-left: 280px;
+}
+.submit,.reset{
+    
+   height: 50px;
+    border:3px solid black;
+    border-radius: 30px;
+    background-color: transparent; 
+    width: 20%;
+   
+    font-family: cursive;
+    font-size:15px;
+   padding: 10px;
+   
+   
+}
+.reset:hover{
+    
+    background-color: rgb(252, 114, 59);
+    color: rgb(248, 212, 135);
+
+}
+.submit:hover{
+    color: rgb(248, 212, 135);
+    background-color: rgb(252, 114, 59);
+
+}
+
+.instruction{
+    
+ 
+    margin-left: 280px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(252, 251, 251);
+    width: 62%;
+    background-color: #00000073;
+    border-radius: 20px;
+}
+.instruction h2{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    color: rgb(252, 252, 252);
+}
+.instruction h5{
+    text-align: center;
+    font-family: cursive;
+   color:rgb(252, 250, 250);
+}
+.instruction ol{
+    font-family: cursive;
+    margin-left: 40px;
+    font-size: larger;
+    color: white;
+}
+
+.instruction hr{
+    background-image: linear-gradient(to right,#1d1b1b,#725b6a,#805c5c);
+                border: 0;
+                height: 4px;
+                width:20%;
+               
+}
