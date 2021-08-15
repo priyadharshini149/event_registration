@@ -1,13 +1,13 @@
 <html>
     <head>
         <title>wt lab_3-event registeration form</title>
+        <link rel="stylesheet" href="stylesheet.css">
         <style>
             body{
                 margin: 0;
               
-               background-image: linear-gradient(rgb(247, 211, 114),rgb(112, 110, 110));
-               background-repeat: no-repeat;
-               background-size: cover;
+                
+                background-color: rgb(253, 242, 138);
             }
            
             h1{
@@ -15,7 +15,7 @@
                font-size: 60px;
                
                text-align: center;
-               color: rgb(243, 175, 28);
+               color: rgb(253, 144, 34);
                text-shadow: -5px 5px 0 #000, 2px 2px 0 #000,2px -2px 0 #000,-2px -2px 0 #000;
                margin-top: 300px;
                padding: 40px;
@@ -32,9 +32,10 @@
             
           }
           h4{
-            font-family:cursive;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
                font-size: 30px;
-               color: rgb(250, 182, 35);
+               color: rgb(253, 144, 34);            
+
                text-shadow: -2px 2px 0 #000, 2px 2px 0 #000,2px -2px 0 #000,-2px -2px 0 #000;
                text-align: center;
                
@@ -55,11 +56,11 @@
           }
           .event {
               width: 100%;
-              padding: 20px;
+              padding: 10px;
               border: 1px solid black;
-              border-radius: 80px;
+              border-radius: 50px;
               margin: 20px;
-              background-color: rgb(250, 184, 43);
+              background-color: #f7a40bc9;
               box-shadow:3px 3px 5px 0px rgba(2, 2, 2, 0.568);
               cursor: pointer;
           }
@@ -70,7 +71,7 @@
           }
           .event h2{
               text-align: center;
-              border-left: 3px solid black;
+            
               border-radius: 10px;
               
               padding: 10px;
@@ -101,20 +102,7 @@
              margin-top: 20px;
          }
 
-         .nav{
-  
-    
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.678);
-    display: flex;
-    
-}
-.nav_top{
-    position: fixed;
-    top:0;
-    right: 0;
-    left:0;
-}
+       
 
 .nav_side{
     
@@ -124,41 +112,52 @@
     padding-top:10px;
 }
 .nav_side a{
-    text-decoration: none;
-    margin-right: 35px;
-    text-align: center;
-    color: rgb(245, 190, 72);
-               text-shadow: -2px 2px 0 #000, 2px 2px 0 #000,2px -2px 0 #000,-2px -2px 0 #000;
-    font-size: 20px;
-    font-weight: bolder;
-    font-family: cosmic,sans-serif;
+    
     margin-left: 20px;
     
 }
 .nav_side a:hover{
-    color:white;
+  
     font-weight:bold;
     transition: all 1s ease;
 }
 
 .event a{
- 
-    padding: 12px;
-    border-radius: 30px;
-    border:1px solid black;
-    text-decoration: none;
-    background-color: #858178;
-    color: #000;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
     
-}
-.e1 a{
-    margin-left:100px ;
-}
-.e a{
-    margin-left: 170px;
-  
+   
+     border:2px solid black;
+     border-radius: 30px;
+     background-color: transparent; 
+     
+    text-decoration: none;
+    color: #000;
+
+     font-family: cursive;
+     font-size:15px;
+    padding: 10px;
+   
+
+    
+    
+ }
+ .event a:hover{
+     
+     background-color: rgb(252, 114, 59);
+     color: rgb(248, 135, 135);
+    
+ 
+ }
+ .event a:hover{
+     color: rgb(248, 212, 135);
+     background-color: rgb(252, 114, 59);
+ 
+ }
+
+.register{
+    margin: 10px;
+    
+    text-align: center;
+    padding: 20px;
 }
 .contact{
     background-color: black;
@@ -230,7 +229,10 @@
 
 
                    </ul>
-                   <a href="paper_presentation.html">register</a>
+                   <div class="register">
+                    <a href="paper_presentation.html">register</a>
+                   </div>
+                   
 
                </div>
                <div class="event e1">
@@ -243,7 +245,9 @@
 
 
                    </ul>
-                   <a href="idea_presentation.html">register</a>
+                   <div class="register">
+                    <a  href="idea_presentation.html">register</a>
+                   </div>
 
             </div>
             <div class="event e1">
@@ -257,7 +261,9 @@
 
 
                 </ul>
-                <a href="code_contest.html">register</a>
+                <div class="register">
+                    <a href="code_contest.html">register</a>
+                </div>
 
             </div>
             <div class="event e1">
@@ -270,7 +276,9 @@
 
 
                 </ul>
-                <a href="application_develop.html">register</a>
+                <div class="register">
+                    <a href="application_develop.html">register</a>
+                </div>
 
             </div>
 
@@ -293,7 +301,9 @@
 
 
             </ul>
+           <div class="register">
             <a href="photograph.html">register</a>
+           </div>
 
            </div>
            <div class="event e">
@@ -306,7 +316,9 @@
 
 
                    </ul>
-                   <a href="poster_design.html">register</a>
+                  <div class="register">
+                    <a href="poster_design.html">register</a>
+                  </div>
 
         </div>
         <div class="event e">
@@ -319,7 +331,9 @@
 
 
             </ul>
-            <a href="multi_media.html">register</a>
+            <div class="register">
+                <a href="multi_media.html">register</a>
+            </div>
 
         </div>
      
